@@ -49,19 +49,18 @@ Modeling ZIP codes that show promise for realestate firms.
 │   └── Presentation_deck
 └── src
     ├── data
-    │   ├── 
-    │   ├── 
-    │   ├── 
-    │   └── 
+    │   ├── zillow_data_lf.csv
+    │   ├── zillow_data.csv
+    │   └── zip_data.npy
     └── mymods.py
     
 
 ```
 #### Repo Navigation Links
- - [final summary notebook](https://github.com/howen7/Time-series-zillow/master/notebooks/report/final_notebook.ipynb)
- - [exploratory notebooks folder](https://github.com/howen7/Time-series-zillow)
- - [src folder](https://github.com/howen7/Time-series-zillow)
- - [presentation.pdf](https://github.com/howen7/Time-series-zillow)
+ - [final summary notebook](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/report/final_notebook.ipynb)
+ - [exploratory notebooks folder](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/exploratory)
+ - [src folder](https://github.com/howen7/Time-series-zillow/tree/main/src)
+ - [presentation.pdf](https://github.com/howen7/Time-series-zillow/tree/main/reports)
  
 # General Setup Instructions 
 
@@ -97,8 +96,10 @@ This project aims to:
 
 # Data:
 
-This project uses dataset from Zillow.
-The dataset compomises of nearly every ZIP code and the average price of home value from 1996-04 to 2018-04.
+The Data used for this project can be found
+
+This project uses dataset from Zillow found [here](https://www.zillow.com/research/data/).
+The dataset compomises of nearly every ZIP code in the USA and their average price of home value from 1996-04 to 2018-04.
 
 
 # Models used + Methodology:
@@ -110,9 +111,23 @@ This project tests several Time series models:
     - SARIMAX model
 
     
-# Results, Future Investigations and Recommendations:
+# Results:
+
+
 
 #### Best model:
+Prophet Model:
+
+
+
 
 
 #### Future Investigations and Recommendations:
+
+Our model only looks at average home prices within a ZIP code
+Need to also look at what is driving prices in an area:
+-Population change
+-Nearby development
+-Local property taxes
+Our model is a good starting point for narrowing down ZIP Codes
+
