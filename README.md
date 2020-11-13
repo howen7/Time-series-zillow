@@ -6,12 +6,12 @@ Modeling ZIP codes that show promise for realestate firms.
 
 <!--ts-->
  * [General Setup Instructions](https://github.com/howen7/Time-series-zillow#general-setup-instructions)
- * [Context of Project](https://github.com/howen7/Time-series-zillow)
- * [Definitions](https://github.com/howen7/Time-series-zillow)
- * [Data](https://github.com/howen7/Time-series-zillow)
- * [Process](https://github.com/howen7/Time-series-zillow)
- * [Results](https://github.com/howen7/Time-series-zillow)
- * [Next Steps](https://github.com/howen7/Time-series-zillow)
+ * [Context of Project](https://github.com/howen7/Time-series-zillow#Context)
+ * [Definitions](https://github.com/howen7/Time-series-zillow#Definitions)
+ * [Data](https://github.com/howen7/Time-series-zillow#Data)
+ * [Process](https://github.com/howen7/Time-series-zillow#Models-used-+-Methodology)
+ * [Results](https://github.com/howen7/Time-series-zillow#Results)
+ * [Next Steps](https://github.com/howen7/Time-series-zillow#Future-Investigations-and-Recommendations)
 <!--te-->
 
 ```
