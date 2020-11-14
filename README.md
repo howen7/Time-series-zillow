@@ -124,11 +124,10 @@ The all used Interval width of 0.95
 
 
 #### Future Investigations and Recommendations:
-
-Our model only looks at average home prices within a ZIP code<br>
 Need to also look at what is driving prices in an area:<br>
--Population change
--Nearby development
--Local property taxes
-Our model is a good starting point for narrowing down ZIP Codes
+    -Population change<br>
+    -Nearby development<br>
+    -Local property taxes<br>
+Our model only looks at average home prices within a ZIP so it doesnt take all the above into account
+Our model is a good starting point for narrowing down ZIP Codes but it isnt a good inferential model.
 
