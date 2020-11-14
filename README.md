@@ -1,5 +1,4 @@
-# Time-series-zillow
-Modeling ZIP codes that show promise for realestate firms. <br>
+# Using time series to Predict Future Home Values
 ![alt text](/notebooks/report/figures/nashville_pic.jpg)
 
 # Table of Contents
@@ -119,15 +118,15 @@ This project tests several Time series models:<br>
 
 ### Best model: Prophet Model
 
-The Parameters for each ZIP code are shown in this table:
+The Parameters for each ZIP code are shown in this table:<br>
 The all used Interval width of 0.95
 ![alt text](/notebooks/report/figures/Model_Parameters.png)
 
 
 #### Future Investigations and Recommendations:
 
-Our model only looks at average home prices within a ZIP code
-Need to also look at what is driving prices in an area:
+Our model only looks at average home prices within a ZIP code<br>
+Need to also look at what is driving prices in an area:<br>
 -Population change
 -Nearby development
 -Local property taxes
