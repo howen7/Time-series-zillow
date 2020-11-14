@@ -100,7 +100,7 @@ This project aims to:<br>
 # Data:
 
 This project uses dataset from Zillow found [here](https://www.zillow.com/research/data/).<br>
-The dataset compomises of nearly every ZIP code in the USA and their average price of home value from 1996-04 to 2018-04.
+The dataset compomises of nearly every ZIP code in the USA and their average price of home value from 1996-04 to 2018-04.Some of the colomns in this data set include region, state, metro area, and size rank. More recent data can also be found at zillow up until 2020. 
 
 
 # Models used + Methodology:
@@ -128,6 +128,6 @@ Need to also look at what is driving prices in an area:<br>
     -Population change<br>
     -Nearby development<br>
     -Local property taxes<br>
-Our model only looks at average home prices within a ZIP so it doesnt take all the above into account
-Our model is a good starting point for narrowing down ZIP Codes but it isnt a good inferential model.
+Our model only looks at average home prices within a ZIP so it doesnt take all the above into account<br>
+It is a good starting point for narrowing down ZIP Codes but it isnt a good inferential model.<br>
 
