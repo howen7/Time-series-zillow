@@ -84,7 +84,7 @@ python -m ipykernel install --user --name churn --display-name "Python 3 (housin
 
 This projects goal was to provide a real estate firm with 5 ZIP codes within the United States that would be good investments. Along with are suggestions we would also provide them with a time series model for each ZIP code to predict how well the ZIP codes would perform 5 years into the future (2018 - 2023). Todays housing market is less predictable because of the recent pandemic and the ability to work from homes. There has been reports of a lot of people moving out of more expensive/ high tax states. [Here](https://losangeles.cbslocal.com/2020/09/23/residents-moving-out-of-california-on-the-rise/) is an article explaning why people are leaving California. 
 
-## Aims:
+# Aims:
 
 This project aims to:<br>
 
@@ -94,8 +94,9 @@ This project aims to:<br>
     
 # Definitions:
 
-- House: A 1-5 bedroom single family home, Condo, or Co-op<br>
-- MAPE: Mean absolute percentage error. A measure of how well our model did when predicting on our hold out test. <br>
+House: A 1-5 bedroom single family home, Condo, or Co-op<br>
+MAPE: Mean absolute percentage error. A measure of how well our model did when predicting on our hold out test. <br>
+RMSE: Root mean square error
 
 # Data:
 
