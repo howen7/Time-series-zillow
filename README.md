@@ -1,6 +1,6 @@
 # Time-series-zillow
 Modeling ZIP codes that show promise for realestate firms. <br>
-![alt text](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/report/figures/nashville_pic.jpg?raw=true)
+![alt text](/notebooks/report/figures/nashville_pic.jpg)
 
 # Table of Contents
 
@@ -61,10 +61,10 @@ Modeling ZIP codes that show promise for realestate firms. <br>
 ```
 #### Repo Navigation Links
  - [Getting Data to long Format](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/exploratory/ImportData.ipynb)   
- - [final summary notebook](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/report/final_notebook.ipynb)
- - [exploratory notebooks folder](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/exploratory)
+ - [Final summary notebook](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/report/final_notebook.ipynb)
+ - [Exploratory notebooks folder](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/exploratory)
  - [src folder](https://github.com/howen7/Time-series-zillow/tree/main/src)
- - [presentation.pdf](https://github.com/howen7/Time-series-zillow/tree/main/reports)
+ - [Presentation.pdf](https://github.com/howen7/Time-series-zillow/tree/main/reports)
  
 # General Setup Instructions 
 
@@ -100,8 +100,6 @@ This project aims to:<br>
 
 # Data:
 
-The Data used for this project can be found<br>
-<br>
 This project uses dataset from Zillow found [here](https://www.zillow.com/research/data/).<br>
 The dataset compomises of nearly every ZIP code in the USA and their average price of home value from 1996-04 to 2018-04.
 
@@ -116,14 +114,14 @@ This project tests several Time series models:<br>
 
     
 # Results:
-![alt text](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/report/figures/Model_performance.png)
+![alt text](/notebooks/report/figures/Model_performance.png)
 
 
-#### Best model:
-Our best results were using facebooks prophet model
+### Best model: Prophet Model
 
-The Parameters are shown in this table:
-
+The Parameters for each ZIP code are shown in this table:
+The all used Interval width of 0.95
+![alt text](/notebooks/report/figures/Model_Parameters.png)
 
 
 #### Future Investigations and Recommendations:
